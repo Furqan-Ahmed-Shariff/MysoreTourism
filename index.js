@@ -503,7 +503,7 @@ var vite_config_default = defineConfig({
   },
   root: path.resolve(__dirname, "client"),
   build: {
-    outDir: path.resolve(__dirname, "build/public"),
+    outDir: path.resolve(__dirname, "build"),
     emptyOutDir: true
   }
 });
