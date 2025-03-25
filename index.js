@@ -484,6 +484,7 @@ import { fileURLToPath } from "url";
 var __filename = fileURLToPath(import.meta.url);
 var __dirname = dirname(__filename);
 var vite_config_default = defineConfig({
+  base: "/MysoreTourism",
   plugins: [
     react(),
     runtimeErrorOverlay(),
@@ -494,7 +495,6 @@ var vite_config_default = defineConfig({
       )
     ] : []
   ],
-  base: "/MysoreTourism",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "client", "src"),
